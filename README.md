@@ -1,10 +1,6 @@
 # MyViewPager
 
 
-ViewpagerExample
-===================================
-
-
 Introduction
 ------------
 
