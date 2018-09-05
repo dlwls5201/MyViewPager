@@ -8,6 +8,8 @@ import com.tistory.black_jin0427.myviewpager.fragment.*
 
 class MainAdapter(fm: FragmentManager) : FragmentStatePagerAdapter(fm) {
 
+    private val fragmentTitleList = mutableListOf("A","B","C","D","E")
+
     override fun getItem(position: Int): Fragment? {
 
         return when(position) {
@@ -33,6 +35,10 @@ class MainAdapter(fm: FragmentManager) : FragmentStatePagerAdapter(fm) {
     override fun destroyItem(container: ViewGroup, position: Int, `object`: Any) {
         super.destroyItem(container, position, `object`)
         //Log.e("FragmentPagerAdapter", "destroyItem position : $position")
+    }
+
+    override fun getPageTitle(position: Int): CharSequence? {
+        return null
     }
 
 }

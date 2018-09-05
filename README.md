@@ -4,8 +4,8 @@
 Introduction
 ------------
 
-This is the view pager example
+This is the view pager example with TapLayout
 
 you can read the description in my blog
 
-http://black-jin0427.tistory.com/94
+http://black-jin0427.tistory.com/49
